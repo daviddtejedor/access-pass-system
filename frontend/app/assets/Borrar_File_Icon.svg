@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>Borrar_File_Icon</title>
+	<defs>
+		<image  width="24" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAMAAACgaw2xAAAAAXNSR0IB2cksfwAAAMZQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w08d2gAAAEJ0Uk5TABd8zfD10oUaUuz/8VhO/P5XP6nlBJiB4h8+Qqgb53ouCwwzf+iQ+aoOigJPwPS/TacPiDxMlTG+CvPyO6bjvUuD1cqGpgAAANFJREFUeJxtkUsPwVAQheeoBiEkXkFYWAmpV5SF+O/sxEZYCEHYELFqRATRlGqn1VbPZs6d784k514QC6yHdeYaAZhfXSAOlW+IUGyQBNSXtZJwe5sggxu5FDubIOvpkxjWhBOhcKF/IXFEUfEB9MwjfXd1UlYeVA7OfglLo1bhngjnFpKeFJgR2mvHnvS0szKc+oS8/IG7Ju3Z1kC9hQ2kSX3Htq4nL9ukMe7PzbjR1vetBsBc9QMONbdsZA9obdh0PYBCQaP0hl5AXSGgf9aIPgZaMeTfK/DvAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="4"/>
+</svg>

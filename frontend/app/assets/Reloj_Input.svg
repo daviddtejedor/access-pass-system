@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>Reloj_Input</title>
+	<defs>
+		<image  width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAAXNSR0IB2cksfwAAAMxQTFRFAAAA9isr+i8v+S8v+i8v+TAw+S8v+i8v9S0t9S8v+jAw+S8v+jAw+TAw+jAw9jEx+DEx+TAw+TAw+S4u+C4u+C0t+TEx+i8v+TAw+C4u+jEx+i8v+jAw+S8v+jAw+i4u+i8v+S8v/zMz+i8v+jAw9y4u+jAw+jAw+TAw+TAw+i8v+DMz+jAw/zU1+i8v+jAw/y4u+jAw9TEx+DEx+S8v+jAw9y0t+S8v+jAw+i8v+TAw+i8v+S8v+y8v+y4u+TAw/zMz+S8v+S8v+TAwQyucqwAAAER0Uk5TAB1st9f0tmscG5n7//2qH07y+FcmJ1is+U1tq638b3Jw8RmcryGualq02ijYGNbZFtQaKVtpIvqasZh18EtMuBSRtfOp3euZAAABTUlEQVR4nGXSW0/CMBQH8HNYhpsMNwUSRIkX1IAXXNQQDYnxu2N88MFEh0EloiCCODQMBgMmm2Mr43Yemub/a9O0PQhO4bDA9CB2SWCP7DB1VyguCKh7/2hsAm/FKs1UCURaJl8xyQ7e38C2YYMwELAE49r4Ba5qAcvowXc74UB15CeEBYRYzVeDKYCdL6ODuN4eKDOw22oZGGnynzADsFdZQ6938XsO4uUo7peY+hwcFDdxWdcGLmxJzoxiaQv6fQLJQjchuXD8ysoERMzHqLvh7PR5e/JwOMoxzp6zpygu0KP7OdIx7BsmkKH8mjKWl541pjBrIJxnhTJM14WUvEE4edMDxak8fS8qkvXsqyqsTEr6AcSM/VEenxnGPIlTlIT9Hvnayw+ZW/JQwes42wg8ipiBUTNc4e2oGUwzXAAXrD459NdDIOtcVnOCf7/eclVjIOtJAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="4" y="4"/>
+</svg>

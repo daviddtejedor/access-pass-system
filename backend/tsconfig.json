@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    /* Configuración de Rutas Absolutas (Path Aliases) */
+    "paths": {
+      "@controllers/*": [
+        "./src/controllers/*"
+      ],
+      "@services/*": [
+        "./src/services/*"
+      ],
+      "@models/*": [
+        "./src/models/*"
+      ],
+      "@routes/*": [
+        "./src/routes/*"
+      ],
+      "@middlewares/*": [
+        "./src/middlewares/*"
+      ],
+      "@config/*": [
+        "./src/config/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ]
+    },
+    /* Estrictez y Tipado */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+    /* Módulos y Compatibilidad */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Debug */
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>Editar_File_Icon</title>
+	<defs>
+		<image  width="24" height="23" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAXCAMAAAAm/38fAAAAAXNSR0IB2cksfwAAAMlQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Zu5/OAAAAEN0Uk5TACCL1PXvz4Ecavb/9GFzZyr7+Ik9mboVAdH8CgWye9Xb/c2u+dks2hYdP3nTSZ8CtpAEbvJH98QNRMMMvuwb8NeqeOkB8ikAAADPSURBVHicdZJbCwFRFIXXkpJIUy5JErklpJQHhX+vvOBByiW5RMilJiUjwpgxnDNZL7v9fbu9z8MhjNDMBR9gFDdp+pMgfPfPIJzqj1B4tYSL3FsieMZvPNzqIqwqVAUBn2MFRnmELf4FGDvYOQJzML6z4RA5AVNrmUc40l+VXUr8kh7keNwwPxN54jYoTh9JMhoYy3ylARmizJ5XkzlylE8bHGFZVNjXS4H8w1v8wyGI6vC9v8QmRFHrWlwU9Y65RxKN9pcLgo3XN9GaRvME+IQ7BzngqEYAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="1"/>
+</svg>

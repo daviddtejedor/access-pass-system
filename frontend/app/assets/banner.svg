@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180" width="100%" height="100%">
+  <defs>
+    <style>
+      .brand-title {
+        fill: #DC2626;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-size: 38px;
+        font-weight: 800;
+        letter-spacing: 3px;
+      }
+      .brand-subtitle {
+        fill: #4B5563;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 8px;
+        transition: fill 0.2s ease;
+      }
+      @media (prefers-color-scheme: dark) {
+        .brand-subtitle {
+          fill: #F3F4F6;
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Isotipo AP (Rojo Unificado) -->
+  <g fill="#DC2626">
+    <path d="M 30 130 L 65 20 L 90 20 L 125 130 L 100 130 L 91 102 L 64 102 L 55 130 Z M 70 78 L 85 78 L 77 45 Z" />
+    <path d="M 115 20 L 160 20 C 180 20 192 31 192 51 C 192 71 180 82 160 82 L 139 82 L 139 130 L 115 130 Z M 139 41 L 139 61 L 156 61 C 166 61 170 56 170 51 C 170 46 166 41 156 41 Z" />
+  </g>
+
+  <!-- Texto AccessPass Unificado en Rojo -->
+  <text x="210" y="80" class="brand-title">
+    ACCESSPASS
+  </text>
+  
+  <!-- Subtítulo Adaptativo (Gris en claro / Blanco en oscuro) -->
+  <text x="213" y="115" class="brand-subtitle">
+    SYSTEM
+  </text>
+</svg>
