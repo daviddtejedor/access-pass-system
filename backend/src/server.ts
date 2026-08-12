@@ -11,21 +11,27 @@ app.use(morgan("dev"));
 app.use(express.json());
 app.use(cookieParser());
 
-// Configuración de CORS corregida
+// CONFIGURACIÓN DE CORS 
+// Leemos la variable o usamos el fallback por defecto
+const envOrigins = process.env.FRONTEND_URL
+  ? process.env.FRONTEND_URL.split(',').map(url => url.trim())
+  : ['http://localhost:3001'];
+
+// Permitimos también llamadas entre entornos de desarrollo locales si fuera necesario
 const allowedOrigins = [
-  "http://localhost:3000", // Backend en dev
-  "http://localhost:3001", // Frontend en dev  
+  ...envOrigins,
+  'http://localhost:3000' // Opcional: útil si usás Server-Side Rendering o endpoints locales
 ];
 
 app.use(cors({
   origin: (origin, callback) => {
-    // Permitir peticiones sin origin (como herramientas Postman/Thunder Client o server-to-server)
+    // Permitir peticiones sin 'origin' (Postman, cURL, Thunder Client) o si está en la lista blanca
     if (!origin || allowedOrigins.includes(origin))
       callback(null, true);
     else
-      callback(new Error("No permitido por CORS"));
+      callback(new Error(`Origen ${origin} no permitido por CORS`));
   },
-  credentials: true,
+  credentials: true, // Requerido para transferir las cookies HttpOnly
 }));
 
 app.get("/", (_, res) => { res.send("Server funcionando!"); });
