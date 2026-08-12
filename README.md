@@ -92,7 +92,43 @@ docker compose -f docker-compose-dev.yml up -d
 npm run dev
 
 ```
+⚠️ Nota importante sobre el primer inicio de sesión:
+El sistema no cuenta con un módulo de registro público de usuarios (sign-up). Para poder iniciar sesión y probar la plataforma por primera vez, el primer usuario administrador debe crearse manualmente mediante una de las siguientes opciones:
 
+- Opción A: Vía Petición HTTP (Postman / Thunder Client / cURL) [Recomendada]
+
+Método: POST
+
+URL: http://localhost:3000/api/auth/register (o la ruta/puerto configurado en tu backend)
+
+Headers: Content-Type: application/json
+
+Body:
+
+JSON
+```bash
+{
+  "name": "Admin Initial",
+  "email": "admin@accesspass.local",
+  "password": "tu_password_segura",
+  "role": "ADMIN"
+}
+```
+
+- Opción B: Vía Consulta Directa en MongoDB (Mongo Compass / Shell)
+Insertar el documento directamente en la colección users:
+
+JavaScript
+```bash
+db.users.insertOne({
+  name: "Admin Initial",
+  email: "admin@accesspass.local",
+  password: "$2b$10$HASH_BCRYPT_AQUI", // Contraseña previamente hasheada
+  role: "ADMIN",
+  createdAt: new Date(),
+  updatedAt: new Date()
+});
+```
 ### 2. Levantar el Frontend
 
 En una terminal independiente:
