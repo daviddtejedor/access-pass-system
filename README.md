@@ -2,7 +2,7 @@
 
 ## 📖 Origen y Contexto
 
-Este proyecto nació y se desplegó originalmente en producción durante mis **Pasantías Profesionalizantes**, desarrollado en un equipo colaborativo de 5 personas. Surgió para resolver una necesidad operativa: centralizar la administración de identidades del personal de la empresa y automatizar en tiempo real el control de acceso físico del portón principal del establecimiento.
+Este proyecto nació y se desplegó originalmente en producción durante mis **Pasantías Profesionalizantes**, desarrollado en un equipo de hasta 3 personas trabajando en simultáneo, con rotación de integrantes a lo largo de la pasantía (5 personas distintas en total). Surgió para resolver una necesidad operativa: centralizar la administración de identidades del personal de la empresa y automatizar en tiempo real el control de acceso físico del portón principal del establecimiento.
 
 Posteriormente, tomé la iniciativa de **refactorizar y evolucionar el sistema de forma individual**. Reestructuré la arquitectura del Backend implementando una capa de lógica de negocios desacoplada (`Services`), automaticé la infraestructura de desarrollo local con **Docker / Docker Compose** para la base de datos y pulí la experiencia de usuario (UI/UX) para llevar la aplicación a estándares modernos de desarrollo.
 
@@ -24,6 +24,7 @@ Posteriormente, tomé la iniciativa de **refactorizar y evolucionar el sistema d
 
 ### Backend e Infraestructura
 
+- **Infraestructura:** Docker & Docker Compose (entorno de desarrollo local para MongoDB)
 - **Runtime:** Node.js / Express
 - **Base de Datos:** MongoDB (vía Docker Compose)
 - **Seguridad:** Cookies `HttpOnly` + JWT
