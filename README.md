@@ -109,10 +109,11 @@ Body:
 JSON
 ```bash
 {
-  "name": "Admin Initial",
-  "email": "admin@accesspass.local",
-  "password": "tu_password_segura",
-  "role": "ADMIN"
+  "dni": 12345678,
+  "name": "Admin Inicial",
+  "password": "Admin123!",
+  "role": "ADMIN",
+  "email": ["admin@accesspass.local"]
 }
 ```
 
